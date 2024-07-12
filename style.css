@@ -1,0 +1,153 @@
+body {
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+header {
+    background-image:url("images/imagess.jpg" ) ;
+    color: white;
+    height: 100vh;
+    width: 1440px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    padding-top: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-position: center;
+    
+}
+#header-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 300px;
+}
+ p{
+    
+    font-weight: bold;
+    line-height: 29px;
+    /*margin-left: -44px;
+    margin-right: -10.5px;*/
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+  
+}
+
+#logo {
+    /*margin-left: -44px;
+    margin-right: -10.5px;*/
+    padding-left: 150px;
+    top: 10px;
+    left: 10px;
+    padding: 0px 20px;
+    
+}
+
+#menu {
+    min-width: 700px;
+    display: flex; .select:hover::after  
+    justify-content: space-between;
+    margin-right: 90px;
+    padding: 10px;
+    justify-content: space-between;
+}
+   
+#texte { 
+
+    font-family: "Poppins", cursive;
+    font-style: normal;
+    font-size: 32px;
+    padding-left: 160px;
+    padding-top: 2px;
+   
+}
+.button {
+    background-color: #ff6a19;
+    border: none;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 72px 650px;
+    border-radius: 2rem;
+
+}
+.boutton{
+    text-decoration: none;
+    color: white;
+
+}
+
+#map{
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 10px 15px;
+    position: relative;
+
+}
+
+ nav li {
+    display: block;
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+
+    }
+
+.faster-one-regular {
+    font-family: "Faster One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+}
+.playball-regular {
+    font-family: "Playball", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+}
+.Poppins {
+    font-family: "Poppins", cursive;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 16px;
+
+}
+.blue-colour{
+    color: aquamarine;
+}
+select {
+
+    background-color: none;
+    font-size: 1.2em;
+  }
+  .select {
+    position: relative;
+    width: 100px;
+    height: 25px;
+    overflow: hidden;
+    background-color: none;
+   
+  }
+  select {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    color: #555555;
+    cursor: pointer;
+    background-color: none;
+    border: none;
+  }
+ section img{
+    width:300px ;
+    height: 300px;
+    padding: 15px;
+    margin: 160px ;
+    padding-right: 1660px;
